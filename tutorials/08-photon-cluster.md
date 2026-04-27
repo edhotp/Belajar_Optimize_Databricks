@@ -102,7 +102,7 @@ Resmi dari Databricks:
 
 ---
 
-## 🔁 Hindari Cluster Restart Sering
+## 🔁 Hindari Sering Restart Cluster
 
 Setiap restart = cache hilang = query pertama lambat. Pakai:
 - **Pools** (idle instances pre-warmed).
