@@ -43,7 +43,7 @@ Setiap tutorial diberi tanda untuk membedakan fitur **open-source** vs **eksklus
 
 > 💡 **Catatan penting:** Karena Databricks dibangun di atas Apache Spark + Delta Lake, **semua fitur 🟢 OSS dan 🟡 OSS+Enhanced otomatis juga tersedia di Databricks**. Yang membedakan hanyalah _portabilitas_-nya ke platform non-Databricks.
 
-| Badge | Jalan di Databricks? | Jalan di Spark/Delta OSS (EMR, Microsoft Fabric, K8s, dll)? | Keterangan |
+| Badge | Jalan di Databricks? | Jalan di Spark/Delta OSS (Microsoft Fabric, Synape Analytics)? | Keterangan |
 |---|:---:|:---:|---|
 | 🟢 **OSS** | ✅ Ya | ✅ Ya | Fitur murni open-source. Sumber: [spark.apache.org](https://spark.apache.org/docs/latest/) & [docs.delta.io](https://docs.delta.io/latest/). |
 | 🟡 **OSS + Databricks-enhanced** | ✅ Ya (versi lebih optimal) | ✅ Ya (versi standar) | Ada di OSS, tapi Databricks menambah optimasi, default berbeda, atau integrasi tambahan. |
