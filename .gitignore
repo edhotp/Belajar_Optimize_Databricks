@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Databricks / Spark
+.databricks/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_SUCCESS
+
+# Data files (jangan commit data sample yang besar)
+*.parquet
+*.delta
+*.csv
+*.json
+*.zip
+*.gz
+*.tar
+sample_data/data/
+sample_data/raw/
+sample_data/output/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Secrets / credentials (defense in depth)
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.*
+.databrickscfg
