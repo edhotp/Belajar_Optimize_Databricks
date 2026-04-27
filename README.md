@@ -1,4 +1,4 @@
-# 🚀 Belajar Optimize Azure Databricks — Tutorial Series Lengkap
+# 🚀 Belajar Optimize Azure Databricks — Tutorial Series
 
 Selamat datang! Series tutorial ini akan membimbing kamu **langkah demi langkah** untuk meng-_optimize_ workload di **Azure Databricks** — mulai dari setup environment, men-generate sample data, sampai teknik-teknik optimasi tingkat lanjut seperti **Liquid Clustering**, **Photon**, **AQE**, dan **Auto Loader**.
 
