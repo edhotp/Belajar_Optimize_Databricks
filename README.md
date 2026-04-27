@@ -39,11 +39,11 @@ flowchart TD
 
 ## 🏷️ Legend Ketersediaan Fitur
 
-Setiap tutorial diberi tanda untuk membedakan fitur **open-source** vs **eksklusif Databricks**, supaya kamu tahu mana yang portable ke environment lain (mis. Spark on Kubernetes, EMR, Synapse Spark) dan mana yang hanya jalan di Databricks.
+Setiap tutorial diberi tanda untuk membedakan fitur **open-source** vs **eksklusif Databricks**, supaya kamu tahu mana yang portable ke environment lain (mis. Spark on Kubernetes, EMR, **Microsoft Fabric** Spark) dan mana yang hanya jalan di Databricks.
 
 > 💡 **Catatan penting:** Karena Databricks dibangun di atas Apache Spark + Delta Lake, **semua fitur 🟢 OSS dan 🟡 OSS+Enhanced otomatis juga tersedia di Databricks**. Yang membedakan hanyalah _portabilitas_-nya ke platform non-Databricks.
 
-| Badge | Jalan di Databricks? | Jalan di Spark/Delta OSS (EMR, Synapse, K8s, dll)? | Keterangan |
+| Badge | Jalan di Databricks? | Jalan di Spark/Delta OSS (EMR, Microsoft Fabric, K8s, dll)? | Keterangan |
 |---|:---:|:---:|---|
 | 🟢 **OSS** | ✅ Ya | ✅ Ya | Fitur murni open-source. Sumber: [spark.apache.org](https://spark.apache.org/docs/latest/) & [docs.delta.io](https://docs.delta.io/latest/). |
 | 🟡 **OSS + Databricks-enhanced** | ✅ Ya (versi lebih optimal) | ✅ Ya (versi standar) | Ada di OSS, tapi Databricks menambah optimasi, default berbeda, atau integrasi tambahan. |
