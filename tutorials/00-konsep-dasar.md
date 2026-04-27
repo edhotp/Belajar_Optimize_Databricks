@@ -93,11 +93,11 @@ df3 = df2.groupBy("country").count()
 
 ```mermaid
 flowchart LR
-    A[Transformation<br/>filter, select, join] -. cuma plan .-> B[Logical Plan]
-    B --> C{{Catalyst Optimizer<br/>+ AQE}}
-    C --> D[Physical Plan]
-    Action[.show() / .count() / .write] --> D
-    D --> E[Eksekusi di Cluster]
+    A["Transformation<br/>filter, select, join"] -. cuma plan .-> B["Logical Plan"]
+    B --> C{{"Catalyst Optimizer<br/>+ AQE"}}
+    C --> D["Physical Plan"]
+    Action["Action<br/>.show() / .count() / .write"] --> D
+    D --> E["Eksekusi di Cluster"]
 ```
 
 Manfaatnya: optimizer ([Catalyst](https://learn.microsoft.com/azure/databricks/spark/) + [AQE](https://learn.microsoft.com/azure/databricks/optimizations/aqe)) bisa **menulis ulang query** kamu menjadi lebih efisien sebelum dijalankan.
