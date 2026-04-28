@@ -10,7 +10,7 @@
 
 ---
 
-## 🧠 Aturan Resmi (Microsoft Learn)
+## 🧠 Rekomendasi aturan (sumber: Microsoft Learn)
 
 > ❌ **Jangan** partition tabel yang ukurannya **< 1 TB**.
 > ❌ **Jangan** partition kalau setiap partisi **< 1 GB**.
