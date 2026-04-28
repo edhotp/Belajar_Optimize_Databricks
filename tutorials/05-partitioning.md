@@ -13,7 +13,9 @@
 ## 🧠 Rekomendasi aturan (sumber: Microsoft Learn)
 
 > ❌ **Jangan** partition tabel yang ukurannya **< 1 TB**.
+> 
 > ❌ **Jangan** partition kalau setiap partisi **< 1 GB**.
+> 
 > ✅ Untuk tabel baru → pakai **Liquid Clustering**.
 
 Source: <https://learn.microsoft.com/azure/databricks/lakehouse-architecture/performance-efficiency/best-practices#avoid-over-partitioning>
